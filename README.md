@@ -8,31 +8,45 @@ Here is my project. I chose to go with the Chatbot, and it is ready to meet you.
 I chose to use Python as the simplicity of the language made it possible for me to write code the fast, and implement as much as possible. Furthermore it is the language I am most familiar with.
 
 ## How to run
-The script can be run through the terminal with no added libraries. 
+To get up and running simple clone this repository. 
 
+```
+git clone https://github.com/WONGUYBEE/chatbot.git
+```
+
+And they type 
+```
+python chatbot/IBM.py
+```
+
+Now you are up and running!
+
+## Commands for navigation between user and admin side
 When opening the chatbot initially, the user gets to choose to be the user or the admin.
-It is possible to change between them by writing ‘7’ in the menu. 
-It is important to change between them to see how the behaviour on each side is reflected on the other.
+It is possible to change between the two by writing ‘7’ in the menu. This is important as changes on one side is reflected on the other.
 
-## Commands for the user side:
- 1. "?" - An explanation of what the bot is able to help with
+## Commands when on the user side:
 
- 2. “show me your selection of [ ]”  - input ‘hammers’, ‘screwdrivers’ or ‘garden tools to display the current selection
+1. **"?"** 
+An explanation of what the bot is able to help with
 
-3. “hi”, “tell me a joke”, “goodbye” - General conversation with the bot
+2. **“show me your selection of [ ]”**
+input ‘hammers’, ‘screwdrivers’ or ‘garden tools to display the current selection
 
-4. "do you have a payment fee?" etc - General questions for the bot to answer
+3. **“hi”, “tell me a joke”, “goodbye”** : General conversation with the bot, see more in *'cozy talk commands'* below
 
-5. “let me buy a [ ]”  - input ex. ‘Mjolnir’, ‘Backet’, ‘SCREWMAX’ to add the item to your cart. The item has to be in stock. Items in stock can be seen using (2)
+4. **"do you have a payment fee?", "is a hammer and a screwdriver the same?**  : General questions for the bot to answer,
+
+5. **“let me buy a [ ]”**  - input ex. ‘Mjolnir’, ‘Backet’, ‘SCREWMAX’ to add the item to your cart. The item has to be in stock. Items in stock can be seen using (2)
 	
-6. “show me my cart” / “buy whats in the cart” / “empty my cart” - Manipulation of the cart. It is possible to show the content, buy it or clear the cart.
+6. **“show me my cart” / “buy whats in the cart” / “empty my cart”** - Manipulation of the cart. It is possible to show the content, buy it or clear the cart.
 
-7. “is the weather okay?” - Tells how the weather is. Locations the bot understands are ‘Bornholm’, ‘Florida’ and ‘the moon’
+7. **“is the weather okay?”** - Tells how the weather is. Locations the bot understands are ‘Bornholm’, ‘Florida’ and ‘the moon’
 
-8. “[anything]?” - When writing any other question with a ‘?’ behind it, the question is saved, and the admin can write an answer to it afterwards. This answer will be used when the question is asked again
+8. **“[any question not in the database]?”** - When writing any other question with a ‘?’ behind it, the question is saved, and the admin can write an answer to it afterwards. This answer will be used when the question is asked again
 
 
-## ADMIN:
+## Commands when on the admin side::
 - Username: admin
 - Password: alpine
 
@@ -57,7 +71,7 @@ Alternatively, leave login empty, that works as well :)
 
 
 
-List of cozy inputs:
+List of cozy talk inputs:
 - hi
 - tell me a joke
 - what is life about?
