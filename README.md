@@ -2,7 +2,7 @@
 
 ## Description
 Hello!
-Here is my IBM Case project. I chose to go with the Chatbot, and it is ready to meet you. It is completely Backend with no GUI, and will run in the terminal.
+Here is my IBM Case project. I chose to go with the chatbot, and it is ready to meet you. It is completely Backend with no GUI, and will run in the terminal.
 
 ## Justification of technology
 I chose to use Python as the simplicity of the language made it possible for me to write code the fast, and implement as much as possible. Furthermore it is the language I am most familiar with.
