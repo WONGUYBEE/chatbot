@@ -2,7 +2,7 @@
 
 ## Description
 Hello!
-Here is my project. I chose to go with the Chatbot, and it is ready to meet you. It is completely Backend with no GUI, and will run in terminal.
+Here is my IBM Case project. I chose to go with the Chatbot, and it is ready to meet you. It is completely Backend with no GUI, and will run in the terminal.
 
 ## Justification of technology
 I chose to use Python as the simplicity of the language made it possible for me to write code the fast, and implement as much as possible. Furthermore it is the language I am most familiar with.
@@ -29,12 +29,12 @@ NB: All commands are hardcoded and should be run exactly as seen below.
 When opening the chatbot initially, the user gets to choose to be the user or the admin.
 It is possible to change between the two by writing ‘7’ in their respective main menu. This is important as changes on one side is reflected on the other.
 
-## Commands when on the admin side::
-
-*To login, use the following credentials:*
+*To login on the admin side, use the following credentials:*
 - Username: admin
-- Password: alpine
-Alternatively, leave login empty, that works as well :)
+- Password: alpine<br/> Alternatively, leave login empty, that works as well :)
+
+## Commands when on the admin side:
+
 
 1. **See the system status** : This will tell if the system is running correctly
 
