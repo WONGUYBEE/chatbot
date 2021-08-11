@@ -1,4 +1,4 @@
-# Welcome, the IBM Chatbot! 🚀
+# Welcome to the IBM Chatbot! 🚀
 
 ## Description
 Hello!
