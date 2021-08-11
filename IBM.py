@@ -340,23 +340,30 @@ If in doubt of what I can help you with, please type '?'
             elif start_input == "?":
 
                 print ("""\n*****************************\n
-I can do the following:
+I can do the following commands:
     
-    (1) Show you the products I have
-        Write “show me your selection of [ ]” with 'hammers', 'screwdrivers' or 'garden tools' to see selection of avalable goods. 
+1. "?" : An explanation of what the bot is able to help with
 
-   - Let you add them to your cart
-   - Buy or clear what is in the cart
-   - Tell you the weather
-   - Answer general questions about the products
-   ..and of course we can get some cozy talk
-   
+2. “show me your selection of [ ]” : input ‘hammers’, ‘screwdrivers’ or ‘garden tools to display the current selection
+
+3. “hi”, “tell me a joke”, “goodbye” : General conversation with the bot, see more in *'cozy talk commands'* below
+
+4. "do you have a payment fee?", "is a hammer and a screwdriver the same?  : General questions for the bot to answer,
+
+5. “let me buy a [ ]” : input ex. ‘Mjolnir’, ‘Backet’, ‘SCREWMAX’ to add the item to your cart. The item has to be in stock. Items in stock can be seen using (2)
+	
+6. “show me my cart” / “buy whats in the cart” / “empty my cart” : Manipulation of the cart. It is possible to show the content, buy it or clear the cart.
+
+7. “is the weather okay?” : Tells how the weather is. Locations the bot understands are ‘Bornholm’, ‘Florida’ and ‘the moon’
+
+8. “[any question not in the database]?” : When writing any other question with a ‘?’ behind it, the question is saved, and the admin can write an answer to it afterwards. This answer will be used when the question is asked again
 My devs are notified when answers are missing, so check back with your questions, if I could not answer them initially.
 
 
-Also, if youre reading this code at IBM right now, see you soon! :)
-Press 6 to stop the script
-Press 7 to go back into the login menu""")
+Press "6" to stop the script
+Press "7" to go back into the login menu
+
+Also, if youre reading this code at IBM right now, see you soon! :)""")
                     
             elif start_input.endswith('?'):
                 if start_input in product_questions:
