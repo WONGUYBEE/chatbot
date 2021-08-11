@@ -1,2 +1,73 @@
-# chatbot
-A chatbot for IBM
+# Welcome, the IBM Chatbot! 🚀
+
+## Description
+Hello!
+Here is my project. I chose to go with the Chatbot, and it is ready to meet you. It is completely Backend with no GUI, and will run in terminal.
+
+## Justification of technology
+I chose to use Python as the simplicity of the language made it possible for me to write code the fast, and implement as much as possible. Furthermore it is the language I am most familiar with.
+
+## How to run
+The script can be run through the terminal with no added libraries. 
+
+When opening the chatbot initially, the user gets to choose to be the user or the admin.
+It is possible to change between them by writing ‘7’ in the menu. 
+It is important to change between them to see how the behaviour on each side is reflected on the other.
+
+## Commands for the user side:
+ 1. "?" - An explanation of what the bot is able to help with
+
+ 2. “show me your selection of [ ]”  - input ‘hammers’, ‘screwdrivers’ or ‘garden tools to display the current selection
+
+3. “hi”, “tell me a joke”, “goodbye” - General conversation with the bot
+
+4. "do you have a payment fee?" etc - General questions for the bot to answer
+
+5. “let me buy a [ ]”  - input ex. ‘Mjolnir’, ‘Backet’, ‘SCREWMAX’ to add the item to your cart. The item has to be in stock. Items in stock can be seen using (2)
+	
+6. “show me my cart” / “buy whats in the cart” / “empty my cart” - Manipulation of the cart. It is possible to show the content, buy it or clear the cart.
+
+7. “is the weather okay?” - Tells how the weather is. Locations the bot understands are ‘Bornholm’, ‘Florida’ and ‘the moon’
+
+8. “[anything]?” - When writing any other question with a ‘?’ behind it, the question is saved, and the admin can write an answer to it afterwards. This answer will be used when the question is asked again
+
+
+## ADMIN:
+- Username: admin
+- Password: alpine
+
+Alternatively, leave login empty, that works as well :)
+
+1. See the system status
+	This will tell if the system is running correctly
+
+2. Add a new product to a category
+	Enter a new product and its stockage, to add it to the selection
+
+3. Update stock of product
+	Change the stock of an existing product
+
+4. See the current stock of products
+	See the current stock of each product
+
+5. See notifications
+	Notifications notifies when questions have been asked, which the bot could not answer. The admin can write an answer to the question. The answer will be displayed if a user asks the question again.
+
+( ! ) it is possible to write ‘back’ in each submenu, to get back to the main menu
+
+
+
+List of cozy inputs:
+- hi
+- tell me a joke
+- what is life about?
+- how much wood could a woodchuck chuck If a woodchuck could chuck wood?
+- hello
+- goodbye
+
+List of product questions:
+- is a hammer and a screwdriver the same?
+- can i become one with the garden tools?
+- i am building a boat. Will i need tools for that?
+- do I have to pay?
+- do you have a payment fee?
